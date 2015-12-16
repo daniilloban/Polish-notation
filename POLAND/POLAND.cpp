@@ -1,12 +1,13 @@
 // Polish notation
 //
 #include "stdafx.h"
-#include <stdlib.h>
-#include <stdio.h>
 #include <locale.h>
 #include <stdbool.h>
 #include <string.h>
 #include <ctype.h>
+#include <stdlib.h>
+#include <stdio.h>
+
 
 enum TYPEVAL { INT, FLOAT, OP };
 enum TYPEOP { ADD, SUB, DEV, MLT, DVC, OBR };// + - / * % (
