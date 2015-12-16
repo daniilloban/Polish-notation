@@ -1,4 +1,4 @@
-// Polish notation
+// Polish notation version 0.1 (beta)
 //
 #include "stdafx.h"
 #include <locale.h>
